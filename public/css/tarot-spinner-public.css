@@ -1,0 +1,56 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#tarot-container {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+    animation: spin 5s linear infinite;
+}
+
+.tarot-main{
+    padding-top:130px;
+}
+.item {
+    width: 120px;
+    height: 120px;
+    line-height: 30px;
+    position: absolute;
+    animation: spin 5s linear infinite reverse;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.start-button {
+    position: absolute;
+    top: 50%;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    transform: translate(50%, 50%);
+    right: 50%;
+    text-decoration: none;
+    background: #5d5dd2;
+    color: #fff;
+    text-transform: capitalize;
+}
+.start-button:hover {
+    background: orange;
+}
+.tarot-spinner {
+    padding: 5em 0 10em;
+    position: relative;
+}
+.active-item{
+    animation: spin 5s linear infinite reverse;
+}
+.active-container{
+    animation: spin 5s linear infinite;
+}

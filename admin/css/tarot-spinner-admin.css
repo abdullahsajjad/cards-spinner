@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ff-form .button {
+    padding: 7px 30px;
+    transition: background .3s;
+}
+
+.tarot-field-description {
+    display: block;
+    margin: 5px 2px;
+}
+
+.ff-form-container div.tagsinput span.tag {
+    border: 1px solid #cccccc !important;
+    background: #f1f1f1 !important;
+    color: #000000 !important;
+}
+
+.ff-form-container div.tagsinput span.tag a {
+    color: #000000 !important;
+
+}
+
+#ff-button:hover {
+    background: #016087;
+    color: #fff;
+}
+
+.ff-form-container .tagsinput {
+    margin-bottom: 20px;
+}
+
+.ff-form-container div.tagsinput span.tag a:hover {
+    color: red !important;
+}
+
+input#tags16050130263820_tag {
+    width: auto !important;
+}
+
+.tagsinput div input {
+    width: auto !important;
+}
+.field-control .tagsinput {
+    width: 100% !important;
+}
+.fence-field-description{
+    display: block;
+}
+input.t_redirect {
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+}
