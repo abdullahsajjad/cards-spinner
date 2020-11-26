@@ -54,3 +54,7 @@
 .active-container{
     animation: spin 5s linear infinite;
 }
+.start-button{
+    border-radius: 50%;
+    padding: 20px;
+}

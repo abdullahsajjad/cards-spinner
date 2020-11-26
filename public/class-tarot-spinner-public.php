@@ -107,7 +107,8 @@ class Tarot_Spinner_Public {
 		);
 	}
 
-	public function tarot_shortcode() {
+	public function tarot_shortcode($atts) {
+		$url = isset($atts['url']) ? $atts['url'] : get_option( 'tarot_settings' );
 		$options  = get_option( 'tarot_tags' );
 		if( isset( $options ) ) {
 			$html = '';
@@ -116,7 +117,7 @@ class Tarot_Spinner_Public {
 				$html .= '<div class="item"><img src="' . $option . '" alt="tarrot-cards"></div>';
 			}
 			$html .= '</div></div>';
-			$html .= '<a href="javascript:void(0)" class="start-button">start</a></div>';
+			$html .= '<a href="'.$url.'" class="start-button">start</a></div>';
 
 			return $html;
 		} else {

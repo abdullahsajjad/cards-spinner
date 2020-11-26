@@ -36,8 +36,9 @@
 		$( '#tarot-container ' ).css( 'animation', 'none' );
 
 		$( '.start-button' ).on( 'click', function(e){
+			//e.preventDefault();
 			if( $(this).hasClass( 'redirect' ) ) {
-				do_redirect();
+				window.location.href($( '.start-button' ).attr('href'));
 			}
 
 
@@ -82,7 +83,6 @@
 
 	}
 	function do_redirect(){
-		alert('hello');
 		window.location.replace(tarot_public.redirect_url);
 	}
 
