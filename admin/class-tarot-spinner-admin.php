@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       https://allmarketingsolutions.co.uk/
+ * @link       https://github.com/abdullah-sajjad/tarot-spinner/
  * @since      1.0.0
  *
  * @package    Tarot_Spinner

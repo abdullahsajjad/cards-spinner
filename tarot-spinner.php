@@ -25,18 +25,17 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-/**
- * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
- * Rename this for your plugin and update it as you release new versions.
- */
-define( 'TAROT_SPINNER_VERSION', '1.0.0' );
+define( 'TS_VERSION', '1.0.0' );
+define( 'TS_PATH', plugin_dir_path( __FILE__ ) );
+define( 'TS_URL', plugin_dir_url(__FILE__ ) );
 
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-tarot-spinner-activator.php
  */
 function activate_tarot_spinner() {
+	require_once TS_PATH . 'includes/class-tarot-spinner-activator.php';
+	Tarot_Spinner_Activator::activate();
 }
 
 /**
