@@ -1,4 +1,4 @@
-# Tarot Spinner for Astrologers
+# Tarot Card Spinner for Astrologers
 
 #### A simple and lightweight WordPress Plugin For Astrologers <br> helps to keep users on the website for longer period of time
 
