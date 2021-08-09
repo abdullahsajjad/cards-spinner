@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       https://allmarketingsolutions.co.uk/
+ * @link       https://github.com/abdullah-sajjad/tarot-spinner/
  * @since      1.0.0
  *
  * @package    Tarot_Spinner

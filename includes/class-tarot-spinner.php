@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       https://allmarketingsolutions.co.uk/
+ * @link       https://github.com/abdullah-sajjad/tarot-spinner/
  * @since      1.0.0
  *
  * @package    Tarot_Spinner
@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Tarot_Spinner
  * @subpackage Tarot_Spinner/includes
- * @author     AMS <help@allmarketingsolutions.co.uk>
+ * @author     Abdullah <abdullahsajjad33@gmail.com>
  */
 class Tarot_Spinner {
 

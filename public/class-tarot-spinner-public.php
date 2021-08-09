@@ -101,10 +101,9 @@ class Tarot_Spinner_Public {
 	 */
 	public function tarot_shortcode( $atts ) {
 		$options = get_option( 'tarot_tags' );
-		$url     = $atts['url'] ?? $options;
+		$url     = $atts['url'] ?? get_option( 'tarot_settings' );
 		if ( isset( $options ) ) {
-			$html = '';
-			$html .= '<div class="tarot-spinner"><div class="tarot-main"><div id="tarot-container">';
+			$html = '<div class="tarot-spinner"><div class="tarot-main"><div id="tarot-container">';
 			foreach ( $options as $option ) {
 				$html .= '<div class="item"><img src="' . $option . '" alt="tarrot-cards"></div>';
 			}
