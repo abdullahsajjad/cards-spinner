@@ -34,7 +34,7 @@
     font-size: 16px;
     border-radius: 5px;
     text-align: center;
-    transform: translate(50%, 50%);
+    transform: translate(50%, 0%);
     right: 50%;
     text-decoration: none;
     background: #5d5dd2;
