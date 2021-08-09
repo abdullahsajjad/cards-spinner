@@ -17,7 +17,7 @@
 			'interactive':true,
 			'defaultText':'Add New URL',
 			'delimiter': [','],   // Or a string with a single delimiter. Ex: ';'
-			'removeWithBackspace' : false,
+			'removeWithBackspace' : true,
 			'minChars' : 0,
 			'maxChars' : 0, // if not provided there is no limit
 		});
